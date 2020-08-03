@@ -55,7 +55,7 @@ class TicTacToe
   
   
   def turn
-    puts "Enter a position number:"
+    puts "Enter a position number 1-9:"
     input = gets.chomp
     index= input_to_index(input)
     player= current_player
